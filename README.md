@@ -106,7 +106,7 @@ Agents are built from ordinary code plus an LLM API. We need Python, API calls, 
 - [Artificial intelligence terms from A to Z](https://agilefever.com/artificial-intelligence-terms-ai-glossary-examples/)
 - Prompt structure, few-shot, and chain-of-thought
 - [Prompt engineering vs context engineering](https://agilefever.com/prompt-engineering-vs-context-engineering/)
-- Context windows, compression, pruning, and budgeting
+- [Context windows, compression, pruning, and budgeting](https://agilefever.com/prompt-engineering-vs-context-engineering/)
 
 **Checkpoint:** Call an LLM API from Python and get a structured answer.
 
@@ -115,8 +115,8 @@ Agents are built from ordinary code plus an LLM API. We need Python, API calls, 
 Every agent has the same parts: a model that reasons, a planner, an executor, tools, and memory. Knowing the parts makes every framework easier to read.
 
 - [Agentic AI architecture: planner, memory, tools, reflection](https://agilefever.com/agentic-ai-architecture-planner-memory-tools-reflection/)
-- LLMs as reasoning engines
-- Planner, executor, tools, and memory
+- [LLMs as reasoning engines](https://agilefever.com/agentic-ai-architecture-planner-memory-tools-reflection/)
+- [Planner, executor, tools, and memory](https://agilefever.com/agentic-ai-architecture-planner-memory-tools-reflection/)
 - Build a rule-based planning agent with memory
 - [Solution architecture patterns for agentic systems](https://agilefever.com/agentic-ai-architecture-patterns-solution-architects/)
 
@@ -145,7 +145,7 @@ Frameworks save time but hide choices. We build the same workflow in more than o
 - LangGraph: state, graphs, and control flow
 - CrewAI: role-based crews
 - AutoGen: conversational agents
-- Orchestration patterns and framework selection
+- [Orchestration patterns and framework selection](https://agilefever.com/ai-agent-frameworks-compared/)
 - [Four ways to build agents: code, low-code, cloud, and custom](https://agilefever.com/agentic-ai-skills-you-will-build-in-the-bootcamp/)
 
 **Checkpoint:** Build the same small workflow in two frameworks and compare them.
@@ -182,10 +182,10 @@ An agent that forgets everything is not useful. We add short-term and long-term 
 Some problems split naturally between roles. We learn how agents hand work to each other, and when one agent is the better choice.
 
 - [Single-agent vs multi-agent systems](https://agilefever.com/single-agent-system-vs-multi-agent-system/)
-- Role-based orchestration with CrewAI and AutoGen
+- [Role-based orchestration with CrewAI and AutoGen](https://agilefever.com/ai-agent-frameworks-compared/)
 - CAMEL and agent negotiation
 - Message passing between agents
-- Collaborative agent systems
+- [Collaborative agent systems](https://agilefever.com/single-agent-system-vs-multi-agent-system/)
 - Build buyer and seller agents that simulate a transaction
 
 **Checkpoint:** Run two agents with different roles on one task.
@@ -221,7 +221,7 @@ Agents fail in ways a single prompt does not: wrong tool, loops, partial results
 An agent that can act can also do damage. We set limits on what it may do, defend against injected instructions, and keep humans in the loop where it matters.
 
 - [Prompt injection and guardrails](https://agilefever.com/prompt-injection-guardrails/)
-- Input sanitization and output filtering
+- [Input sanitization and output filtering](https://agilefever.com/prompt-injection-guardrails/)
 - Tool permission scoping and sandboxing agent actions
 - Loop prevention and constraint design
 - Trust boundaries and permission control
